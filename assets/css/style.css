@@ -4,7 +4,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #f8bbd0;
+  background-color: #e0f7fa;
   min-height: 100vh;
   position: relative;
   margin: 0;
@@ -26,8 +26,8 @@ h1 {
   font-size: 1.5rem;
   margin-top: 0px;
   padding: 0;
-  color: #00867d;
-  text-align: right;
+  color: #00bcd4;
+  text-align: center;
 }
 
 /* --- Navigation Bar  */
@@ -46,13 +46,13 @@ h1 {
 .navbar-light .nav-item.active .nav-link,
 .navbar-light .nav-item:focus .nav-link,
 .navbar-light .nav-item:hover .nav-link {
-  color: #e57373;
+  color: #00bcd4;
 }
 
 .navbar-light .nav-item .nav-link,
 .navbar-light .nav-item:focus .nav-link,
 .navbar-light .nav-item:hover .nav-link {
-  color: #00867d;
+  color: #e91e63;
 }
 
 /* --- Home Page  */
@@ -83,7 +83,7 @@ footer {
 
 .footer-row i {
   font-size: 2rem;
-  color: #00867d;
+  color: #00bcd4;
 }
 
 .footer-row col-12 a i {
@@ -91,5 +91,5 @@ footer {
 }
 
 .social-links i:hover {
-  color: #e57373;
+  color: #e91e63;
 }
