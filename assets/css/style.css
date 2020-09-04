@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:ital,wght@400;700;1&family=Montserrat&display=swap");
+
+/* --- Body  */
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8bbd0;
+  min-height: 100vh;
+  position: relative;
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 3rem;
+}
+
+/* --- General Headings  */
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Alegreya+Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-top: 0px;
+  padding: 0;
+  color: #00867d;
+  text-align: right;
+}
+
+/* --- Navigation Bar  */
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar {
+  margin-bottom: 0.5rem;
+  border: 0;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+  color: #e57373;
+}
+
+.navbar-light .nav-item .nav-link,
+.navbar-light .nav-item:focus .nav-link,
+.navbar-light .nav-item:hover .nav-link {
+  color: #00867d;
+}
+
+/* --- Home Page  */
+
+#itil-pic1 {
+  background: url("../images/itil-pic1.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+}
+
+
+/* --- Footer  */
+
+footer {
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 0;
+  height: 3rem;
+  width: 100%;
+}
+.footer-row {
+  text-align: center;
+  padding: 1rem;
+}
+
+.footer-row i {
+  font-size: 2rem;
+  color: #00867d;
+}
+
+.footer-row col-12 a i {
+  text-align: left;
+}
+
+.social-links i:hover {
+  color: #e57373;
+}
