@@ -13,7 +13,7 @@ body {
   padding-bottom: 3rem;
 }
 
-#quick-body { 
+.body-blue { 
     background-color: #C9E7FC;
 }
 
@@ -76,6 +76,10 @@ h1 {
     font-size: 1.5rem;
      color: #e91e63;
 }
+
+
+/* --- Quick Help Page  */
+
 
 /* --- Footer  */
 
