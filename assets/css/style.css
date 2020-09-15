@@ -13,6 +13,10 @@ body {
   padding-bottom: 3rem;
 }
 
+#quick-body { 
+    background-color: #C9E7FC;
+}
+
 /* --- General Headings  */
 
 header {
