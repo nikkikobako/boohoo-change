@@ -50,7 +50,7 @@
           id="navbarToggler"
         >
           <ul class="navbar-nav">
-            <li class="nav-item ">
+            <li class="nav-item">
               <a class="nav-link" href="index.html">Home </a>
             </li>
             <li class="nav-item active">
@@ -74,32 +74,130 @@
       </div>
     </header>
     <!-- Main section - middle of page -->
-    <section class="container-fluid ">
-      
-        <div class="row row-style">
-               <div class="col-sm-4">
-                    <p class="d-none d-xl-block">
-                <button
-                  class="btn"
-                  type="button"
-                  data-toggle="collapse"
-                  data-target="#collapseanimal"
-                  aria-expanded="false"
-                  aria-controls="collapseanimal"
-                >
-                  Justification
-                </button>
-              </p>
+    <section class="container-fluid">
+     <!-- Row for Definitions -->
+      <div class="row row-style">
+      <!-- Button for Change Model -->
+        <div class="col-sm-4">
+          <p class="d-none d-xl-block">
+            <button
+              class="btn"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapsemodel"
+              aria-expanded="false"
+              aria-controls="collapsemodel"
+            >
+              Change Model
+            </button>
+          </p>
 
-              <!-- collapse text only shows if button avaialble so x-large only-->
-              <div class="collapse" id="collapseanimal">
-                <div class="card card-body">
-                  testing
-                </div>
-              </div>
+          <div class="collapse" id="collapsemodel">
+            <div class="card card-body">
+              there are 3 Change models
+              <ul>
+                <li>
+                  Normal
+                </li>
+                <li>
+                    Emergency
+                </li>
+                <li>
+                Standard
+                </li>
+              </ul>
             </div>
           </div>
-      
+        </div>
+        <!-- Button for Change Types -->
+        <div class="col-sm-4">
+          <p class="d-none d-xl-block">
+            <button
+              class="btn"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapstype"
+              aria-expanded="false"
+              aria-controls="collapstype"
+            >
+              Change Type
+            </button>
+          </p>
+
+          <div class="collapse" id="collapstype">
+            <div class="card card-body">
+              There are  Change types
+              <ul>
+                <li>
+                  Minor
+                </li>
+                <li>
+                    Significant
+                </li>
+                <li>
+                Major
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- Row for Definitions -->
+      <div class="row row-style">
+      <!-- Button for Justification -->
+        <div class="col-sm-4">
+          <p class="d-none d-xl-block">
+            <button
+              class="btn"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapsejustify"
+              aria-expanded="false"
+              aria-controls="collapsejustify"
+            >
+              Justification
+            </button>
+          </p>
+
+          <div class="collapse" id="collapsejustify">
+            <div class="card card-body">
+              For urgent change types the justification must include the
+              following:-
+              <ul>
+                <li>
+                  Reason why the change was not raised in time for a CAB meeting
+                </li>
+                <li>
+                  why the change must be implemented before the next planned CAB
+                  meeting, this is the reason why the change cannot wait
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- Button for Service -->
+        <div class="col-sm-4">
+          <p class="d-none d-xl-block">
+            <button
+              class="btn"
+              type="button"
+              data-toggle="collapse"
+              data-target="#collapsservice"
+              aria-expanded="false"
+              aria-controls="collapsservice"
+            >
+              Affected Service
+            </button>
+          </p>
+
+          <div class="collapse" id="collapsservice">
+            <div class="card card-body">
+              The affected services are what areas are impacted by your RFC
+              
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Footer Section -->
