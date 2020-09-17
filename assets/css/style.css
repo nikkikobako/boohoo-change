@@ -13,8 +13,8 @@ body {
   padding-bottom: 3rem;
 }
 
-.body-blue { 
-    background-color: #C9E7FC;
+.body-blue {
+  background-color: #c9e7fc;
 }
 
 /* --- General Headings  */
@@ -35,6 +35,10 @@ h1 {
   text-decoration: none;
 }
 
+h2 {
+  color: #00bcd4;
+  margin: 30px;
+}
 /* --- Navigation Bar  */
 
 .navbar-brand {
@@ -71,23 +75,22 @@ h1 {
 }
 
 #basic-details {
-    margin: 50px;
-    padding: 30px;
-    font-size: 1.5rem;
-     color: #e91e63;
+  margin: 50px;
+  padding: 30px;
+  font-size: 1.5rem;
+  color: #e91e63;
 }
-
 
 /* --- Quick Help Page  */
 
 .row-style {
-      background-color: #f8f8ff;
+  background-color: #f8f8ff;
   border: 2px solid #3f3f3f;
   box-shadow: 5px 10px grey;
   border-radius: 10px;
   margin: 10px;
   min-height: 10rem;
-}
+  margin-bottom: 50px;
 
 
 /* --- Footer  */
