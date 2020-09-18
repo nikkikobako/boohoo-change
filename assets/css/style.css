@@ -104,11 +104,11 @@ h2 {
 }
 
 .card-body {
-    background-color: #e0f7fa;
-    margin-bottom: 10px;
+    background-color:  #c9e7fc;
+    margin-bottom: 15px;
     border-radius: 25px;
     border: 2px solid #3f3f3f;
-  box-shadow: 5px 10px grey;
+    box-shadow: 5px 10px grey;
 }
 
 /* --- Footer  */
