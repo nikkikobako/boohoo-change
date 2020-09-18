@@ -111,6 +111,16 @@ h2 {
     box-shadow: 5px 10px grey;
 }
 
+/* --- Documentation Page  */
+
+#change-process {
+  background: url("../images/change-process.jpg") no-repeat center center;
+  background-size: contain;
+  min-height: 90vh;
+  width: 150%;
+  margin: 0;
+  padding: 0;
+}
 /* --- Footer  */
 
 footer {
