@@ -104,8 +104,13 @@ h2 {
 }
 
 .doc-btn {
-    margin-bottom: 50px;
+    margin: 3rem 0.5rem;
+   
+    width: 100%;
+    padding: 0.5rem;
 }
+
+
 
 .card-body {
     background-color:  #c9e7fc;
