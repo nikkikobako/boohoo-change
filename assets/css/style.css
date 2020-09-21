@@ -103,6 +103,10 @@ h2 {
     font-weight: 600;
 }
 
+.doc-btn {
+    margin-bottom: 50px;
+}
+
 .card-body {
     background-color:  #c9e7fc;
     margin-bottom: 15px;
