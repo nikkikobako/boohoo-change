@@ -149,6 +149,8 @@ h2 {
 
 #ideas-btn {
     min-height: 4rem;
+    border: 2px solid #3f3f3f;
+    box-shadow: 5px 10px grey;
 }
 
 #ideas-btn:hover {
