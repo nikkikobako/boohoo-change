@@ -130,6 +130,19 @@ h2 {
     padding: 0.5rem;
 }
 
+
+/* --- Ideas Page  */
+
+
+#ideas-pic {
+  background: url("../images/ideas-pic-change.png") no-repeat center center;
+  background-size: cover;
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
 /* --- Footer  */
 
 footer {
