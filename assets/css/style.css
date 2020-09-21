@@ -36,9 +36,9 @@ h1 {
 }
 
 h2 {
-  color:#e91e63;
+  color: #e91e63;
   margin-left: 15px;
-  }
+}
 
 /* --- Navigation Bar  */
 
@@ -96,12 +96,12 @@ h2 {
 }
 
 .btn {
-    margin-top: 30px;
-    border-radius: 25px;
-    border: 2px solid #3f3f3f;
-    background-color:#80deea;
-    color:  #3f3f3f;
-    font-weight: 600;
+  margin-top: 30px;
+  border-radius: 25px;
+  border: 2px solid #3f3f3f;
+  background-color: #80deea;
+  color: #3f3f3f;
+  font-weight: 600;
 }
 
 .btn:hover {
@@ -109,11 +109,11 @@ h2 {
 }
 
 .card-body {
-    background-color:  #c9e7fc;
-    margin-bottom: 15px;
-    border-radius: 25px;
-    border: 2px solid #3f3f3f;
-    box-shadow: 5px 10px grey;
+  background-color: #c9e7fc;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  border: 2px solid #3f3f3f;
+  box-shadow: 5px 10px grey;
 }
 
 /* --- Documentation Page  */
@@ -127,14 +127,12 @@ h2 {
   padding: 0;
 }
 
-
 .doc-btn {
-    margin: 3rem 0.5rem;
-   
-    width: 100%;
-    padding: 0.5rem;
-}
+  margin: 3rem 0.5rem;
 
+  width: 100%;
+  padding: 0.5rem;
+}
 
 /* --- Ideas Page  */
 
@@ -148,21 +146,21 @@ h2 {
 }
 
 #ideas-row {
-    margin-top: 10rem;
-    margin-left: 6rem;
+  margin-top: 10rem;
+  margin-left: 6rem;
 }
 
 #ideas-btn {
-    min-height: 4rem;
-    border: 2px solid #3f3f3f;
-    box-shadow: 5px 10px grey;
+  min-height: 4rem;
+  border: 2px solid #3f3f3f;
+  box-shadow: 5px 10px grey;
 }
 
 /* --- style the modal popup  */
 
 .modal-dialog {
-   color:  #00bcd4;
-   font-weight: 400;
+  color: #00bcd4;
+  font-weight: 400;
   position: absolute;
   top: 20%;
   right: 0;
