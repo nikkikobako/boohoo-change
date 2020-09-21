@@ -20,7 +20,7 @@
     <link
       rel="shortcut icon"
       type="image/png"
-       href="assets/images/boohoo-image.png"
+      href="assets/images/boohoo-image.png"
     />
   </head>
   <body class="body-blue">
@@ -77,12 +77,17 @@
     <section class="container-fluid">
       <div id="ideas-pic">
         <div class="row no-gutters">
-         
-            <div id="ideas-row">
-              <p>
-                <button class="btn btn-lg" id="ideas-btn" data-toggle="modal" data-target="#ideasModal">Do you have a good idea for change improvements?</button>
-              </p>
-          
+          <div id="ideas-row">
+            <p>
+              <button
+                class="btn btn-lg"
+                id="ideas-btn"
+                data-toggle="modal"
+                data-target="#ideasModal"
+              >
+                Do you have a good idea for change improvements?
+              </button>
+            </p>
           </div>
         </div>
       </div>
@@ -120,37 +125,56 @@
       </div>
     </footer>
 
+    <!---------------------------------- modal code copied from Bootstrap -->
+    <div class="modal" tabindex="-1" role="dialog" id="ideasModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Send Change Management Your Ideas</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="newIdea"
+                  ><i class="fas fa-lightbulb"></i> Your Idea</label
+                >
 
-<!---------------------------------- modal code copied from Bootstrap -->
-	<div class="modal" tabindex="-1" role="dialog" id="ideasModal">
-		<div class="modal-dialog modal-lg">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title">Send Change Management Your Ideas</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-				</div>
-				<div class="modal-body">
-					<form>
-                    <div class="form-group">
-							<label for="newIdea"><i class="fas fa-lightbulb"></i>  Your Idea</label>
-                            
-							<input type="text" class="form-control" id="newIdea" aria-describedby="newIdeaText">
-							<small id="newIdeaText" class="form-text text-muted">All ideas will be concidered.</small>
-						</div>
-						<div class="form-group">
-							<label for="exampleInputEmail1"><i class="fa fa-envelope-open-text" aria-hidden="true"></i> Your Email address</label>
-							<input type="email" class="form-control" id="exampleInputEmail1" >
-										</div>
-						
-					
-						<button type="submit" class="btn btn-success">Submit</button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="newIdea"
+                  aria-describedby="newIdeaText"
+                />
+                <small id="newIdeaText" class="form-text text-muted"
+                  >All ideas will be concidered.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1"
+                  ><i class="fa fa-envelope-open-text" aria-hidden="true"></i>
+                  Your Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                />
+              </div>
+
+              <button type="submit" class="btn">Send in Your Idea</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Required for Bootstrap JS & keep all scripts together -->
     <script
       src="https://kit.fontawesome.com/15a3b949c3.js"

@@ -103,6 +103,10 @@ h2 {
     font-weight: 600;
 }
 
+.btn:hover {
+  color: #e91e63;
+}
+
 .card-body {
     background-color:  #c9e7fc;
     margin-bottom: 15px;
@@ -151,10 +155,6 @@ h2 {
     min-height: 4rem;
     border: 2px solid #3f3f3f;
     box-shadow: 5px 10px grey;
-}
-
-#ideas-btn:hover {
-  color: #e91e63;
 }
 
 /* --- Footer  */
