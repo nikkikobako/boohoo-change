@@ -103,15 +103,6 @@ h2 {
     font-weight: 600;
 }
 
-.doc-btn {
-    margin: 3rem 0.5rem;
-   
-    width: 100%;
-    padding: 0.5rem;
-}
-
-
-
 .card-body {
     background-color:  #c9e7fc;
     margin-bottom: 15px;
@@ -130,6 +121,15 @@ h2 {
   margin: 0;
   padding: 0;
 }
+
+
+.doc-btn {
+    margin: 3rem 0.5rem;
+   
+    width: 100%;
+    padding: 0.5rem;
+}
+
 /* --- Footer  */
 
 footer {
