@@ -39,6 +39,7 @@ h2 {
   color:#e91e63;
   margin-left: 15px;
   }
+
 /* --- Navigation Bar  */
 
 .navbar-brand {
@@ -155,6 +156,21 @@ h2 {
     min-height: 4rem;
     border: 2px solid #3f3f3f;
     box-shadow: 5px 10px grey;
+}
+
+/* --- style the modal popup  */
+
+.modal-dialog {
+   color:  #00bcd4;
+   font-weight: 400;
+  position: absolute;
+  top: 20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10040;
+  overflow: auto;
+  overflow-y: auto;
 }
 
 /* --- Footer  */
