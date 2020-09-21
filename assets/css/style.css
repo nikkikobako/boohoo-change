@@ -133,7 +133,6 @@ h2 {
 
 /* --- Ideas Page  */
 
-
 #ideas-pic {
   background: url("../images/ideas-pic-change.png") no-repeat center center;
   background-size: cover;
@@ -141,6 +140,19 @@ h2 {
   width: 100%;
   margin: 0;
   padding: 0;
+}
+
+#ideas-row {
+    margin-top: 10rem;
+    margin-left: 6rem;
+}
+
+#ideas-btn {
+    min-height: 4rem;
+}
+
+#ideas-btn:hover {
+  color: #e91e63;
 }
 
 /* --- Footer  */
