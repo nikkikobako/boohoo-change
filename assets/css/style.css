@@ -158,6 +158,8 @@ h2 {
 
 /* --- style the modal popup  */
 
+
+
 .modal-dialog {
   color: #00bcd4;
   background-color: #c9e7fc;
@@ -173,10 +175,17 @@ h2 {
   overflow-y: auto;
 }
 
-
 #selectArea {
   color: #00bcd4;
   border-color: #00bcd4;
+}
+
+/* The Close Button */
+.modal-btn {
+  margin: 3px;
+  font-size: 1.2rem;
+  font-weight: bold;
+ 
 }
 
 /* --- Footer  */
