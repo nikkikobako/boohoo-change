@@ -173,6 +173,12 @@ h2 {
   overflow-y: auto;
 }
 
+
+#selectArea {
+  color: #00bcd4;
+  border-color: #00bcd4;
+}
+
 /* --- Footer  */
 
 footer {
