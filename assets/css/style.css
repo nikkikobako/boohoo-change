@@ -160,13 +160,15 @@ h2 {
 
 .modal-dialog {
   color: #00bcd4;
+  background-color: #c9e7fc;
   font-weight: 400;
   position: absolute;
   top: 20%;
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 10040;
+  border: 5px solid #3f3f3f;
+  z-index: 1;
   overflow: auto;
   overflow-y: auto;
 }
