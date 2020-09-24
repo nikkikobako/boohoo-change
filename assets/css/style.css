@@ -75,12 +75,13 @@ h3 {
 /* --- Home Page  */
 
 #itil-pic1 {
-  background: url("../images/itil-pic1.jpg") no-repeat center top;
-  background-size: auto;
-  min-height: 100vh;
+  background: url("../images/itil-pic1.jpg") no-repeat center center;
+  background-size: cover;
+  min-height: 30vh;
   width: 100%;
   margin: 0;
   padding: 0;
+  border: 2px solid #3f3f3f;
 }
 
 #basic-details {
