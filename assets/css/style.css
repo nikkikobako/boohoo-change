@@ -77,7 +77,7 @@ h3 {
 #itil-pic1 {
   background: url("../images/itil-pic1.jpg") no-repeat center top;
   background-size: auto;
-  height: 100vh;
+  min-height:100vh;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -86,7 +86,14 @@ h3 {
 #basic-details {
   font-size: 1.5rem;
   color: #e91e63;
+   min-height: 80vh;
  padding: 20px;
+}
+
+#basic-details a {
+  font-size: 1.2rem;
+  color:  #00bcd4;
+    font-weight: 500;
 }
 
 /* --- Quick Help Page  */
