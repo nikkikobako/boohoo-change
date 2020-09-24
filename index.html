@@ -87,11 +87,23 @@
               >Lets start with some help on the what change means and what the
               form requires</a
             >
+             <p>
             <a href="#documentation"
               >Do you want to get a bit more indepth? Need to review the
               documentation?</a
             >
-          </p>
+             </p>
+             <p>
+             <button
+                class="btn btn-lg"
+                id="ideas-btn"
+                data-toggle="modal"
+                data-target="#ideasModal"
+              >
+                Do you have a good idea for change improvements?
+              </button>
+             </p>
+       </p>
         </div>
       </div>
     </section>
@@ -241,6 +253,7 @@
         >
       </div>
     </section>
+       <!-- Ideas Section -->
     <!-- Footer Section -->
     <footer class="container-fluid">
       <div class="row footer-row">
@@ -272,7 +285,83 @@
         </div>
       </div>
     </footer>
+  <!---------------------------------- modal code copied from Bootstrap -->
+    <div class="modal" tabindex="-1" role="dialog" id="ideasModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Send Change Management Your Ideas</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="selectArea"
+                  ><i class="fas fa-mouse-pointer"></i> Idea is for </label
+                >
 
+                <select class="text-input" id="selectArea">
+                  <option value="process">Change Process</option>
+                  <option value="tool">ServiceDesk Plus</option>
+                  <option value="docs">Documentation</option>
+                  <option value="Website">Web Site</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="newIdea"
+                  ><i class="fas fa-lightbulb"></i> Your Idea</label
+                >
+                <textarea
+                  type="text"
+                  class="form-control"
+                  id="newIdea"
+                  rows="4"
+                  aria-describedby="newIdeaText"
+                  required
+                >
+                </textarea>
+                <small id="newIdeaText" class="form-text text-muted"
+                  >All ideas will be concidered.</small
+                >
+              </div>
+              <div class="form-group">
+                <label for="firstName">
+                  <i class="fas fa-id-badge"></i> Forename</label
+                >
+                <input type="text" class="form-control" id="firstName" required/>
+              </div>
+              <div class="form-group">
+                <label for="lastName">
+                  <i class="fas fa-id-badge"></i> Surname</label
+                >
+                <input type="text" class="form-control" id="lastName" required/>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputEmail1"
+                  ><i class="fa fa-envelope-open-text" aria-hidden="true"></i>
+                  Your Email address</label
+                >
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  required
+                />
+              </div>
+
+              <button type="submit" class="btn modal-btn">Send in Your Idea</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- Required for Bootstrap JS & keep all scripts together -->
     <script
       src="https://kit.fontawesome.com/15a3b949c3.js"
