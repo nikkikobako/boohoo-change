@@ -1,41 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
 
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <title>Home | Boohoo Change</title>
-    <link
-      rel="shortcut icon"
-      type="image/png"
-      href="assets/images/boohoo-image.png"
-    />
-  </head>
-  <body>
-    <!-- Header Section including logo and Navigation -->
-    <header class="container-fluid">
-      <a id="Top-of-page">
-        <nav class="navbar navbar-expand-sm navbar-light">
-          <a class="navbar-brand mr-auto" href="index.html">
-            <img
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<title>Home | Boohoo Change</title>
+	<link rel="shortcut icon" type="image/png" href="assets/images/boohoo-image.png" />
+</head>
+
+<body>
+	<!-- Header Section including logo and Navigation -->
+	<header class="container-fluid">
+		<a id="Top-of-page">
+			<nav class="navbar navbar-expand-sm navbar-light">
+				<a class="navbar-brand mr-auto" href="index.html">
+					<img
               src="assets/images/boohoo-image.png"
               alt="Boohoo logo"
               height="75"
               width="75"
           /></a>
-          <button
+					<button
             class="navbar-toggler btn btn-secondary"
             type="button"
             data-toggle="collapse"
@@ -46,259 +37,213 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div
-            class="collapse navbar-collapse justify-content-end"
-            id="navbarToggler"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#quick-help">Quick Help </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#documentation">Documentation </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#ideasModal">Ideas </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-12">
-              <h1 class="nav-head">Change Management</h1>
-            </div>
-          </div>
-        </div>
-      </a>
-    </header>
-    <!-- Top Section -->
-    <section class="container-fluid">
-      <div class="row no-gutters">
-        <div class="col-sm-7" id="itil-pic1"></div>
+					<div class="collapse navbar-collapse justify-content-end" id="navbarToggler">
+						<ul class="navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="index.html">Home </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#quick-help">Quick Help </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#documentation">Documentation </a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#ideasModal">Ideas </a>
+							</li>
+						</ul>
+					</div>
+			</nav>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-12">
+						<h1 class="nav-head">Change Management</h1>
+					</div>
+				</div>
+			</div>
+		</a>
+	</header>
+	<!-- Top Home Section -->
+	<section class="container-fluid">
+		<div class="row no-gutters">
+			<div class="col-sm-7" id="itil-pic1"></div>
+			<div class="col-sm-5" id="basic-details">
+				<p><b>Need a little help with change management?</b><br /></p>
+				<p>
+					<a href="#quick-help">Lets start with some help on the what change means and what the form requires</a>
+					<p>
+						<a href="#documentation">Do you want to get a bit more indepth? Need to review the documentation?</a>
+					</p>
+				</p>
+			</div>
+		</div>
+		<div class="row no-gutters">
+			<div class="col-sm-7 ideas-col">
+				<p> 
+					<button class="btn btn-lg" id="ideas-btn" data-toggle="modal" data-target="#ideasModal">
+                        Do you have a good idea for change improvements?
+                    </button>
+				</p>
+			</div>
+			<div class="col-sm-5" id="ideas-pic"></div>
+		</div>
+	</section>
+	<!-- Quick Help Section -->
+	<section class="container-fluid">
+		<a id="quick-help">
+			<!-- Row for Definitions -->
+			<h2>Definitions</h2>
+			<div class="row">
+				<!-- Card for Change Model -->
+				<div class="col-sm-4">
+					<div class="def-style">
+						<h3>Change Model</h3>
+						<div class="card-body">
+							there are 3 Change models
+							<ul>
+								<li>
+									Normal
+								</li>
+								<li>
+									Emergency
+								</li>
+								<li>
+									Standard
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<!-- Card for Change Types -->
+				<div class="col-sm-4">
+					<div class="def-style">
+						<h3>Change Type</h3>
+						<div class="card-body">
+							There are Change types
+							<ul>
+								<li>
+									Minor
+								</li>
+								<li>
+									Significant
+								</li>
+								<li>
+									Major
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Row for Field Variables -->
+			<h2>What Information do you Need for Change Fields</h2>
+			<div class="row">
+				<!-- Card for Justification -->
+				<div class="col-sm-6">
+					<div class="def-style">
+						<h3>Justification</h3>
+						<div class="card-body">
+							For urgent change types the justification must include the
+							following:-
+							<ul>
+								<li>
+									Reason why the change was not raised in time for a CAB
+									meeting
+								</li>
+								<li>
+									why the change must be implemented before the next planned
+									CAB meeting, this is the reason why the change cannot wait
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 
-        <div class="col-sm-5" id="basic-details">
-          <p><b>Need a little help with change management?</b><br /></p>
-          <p>
-            <a href="#quick-help"
-              >Lets start with some help on the what change means and what the
-              form requires</a
-            >
-             <p>
-            <a href="#documentation"
-              >Do you want to get a bit more indepth? Need to review the
-              documentation?</a
-            >
-             </p>
-             
-       </p>
-        </div>
-       
-      </div>
-         <div class="row no-gutters">
-         <div class="col-sm-7 ideas-col">
-         <p>
-             <button
-                class="btn btn-lg"
-                id="ideas-btn"
-                data-toggle="modal"
-                data-target="#ideasModal"
-              >
-                Do you have a good idea for change improvements?
-              </button>
-             </p>
-         </div>
-        <div class="col-sm-5" id="ideas-pic"></div>
-          </div>
-    </section>
-    <!-- Quick Help Section -->
-    <section class="container-fluid">
-      <a id="quick-help">
-        <!-- Row for Definitions -->
-        <h2>Definitions</h2>
-        <div class="row">
-          <!-- Card for Change Model -->
-          <div class="col-sm-4">
-            <div class="def-style">
-              <h3>Change Model</h3>
-              <div class="card-body">
-                there are 3 Change models
-                <ul>
-                  <li>
-                    Normal
-                  </li>
-                  <li>
-                    Emergency
-                  </li>
-                  <li>
-                    Standard
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- Card for Change Types -->
-          <div class="col-sm-4">
-            <div class="def-style">
-              <h3>Change Type</h3>
-              <div class="card-body">
-                There are Change types
-                <ul>
-                  <li>
-                    Minor
-                  </li>
-                  <li>
-                    Significant
-                  </li>
-                  <li>
-                    Major
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Row for Field Variables -->
-        <h2>What Information do you Need for Change Fields</h2>
-        <div class="row">
-          <!-- Card for Justification -->
-          <div class="col-sm-6">
-            <div class="def-style">
-              <h3>Justification</h3>
-              <div class="card-body">
-                For urgent change types the justification must include the
-                following:-
-                <ul>
-                  <li>
-                    Reason why the change was not raised in time for a CAB
-                    meeting
-                  </li>
-                  <li>
-                    why the change must be implemented before the next planned
-                    CAB meeting, this is the reason why the change cannot wait
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
+				<!-- Card for Service -->
+				<div class="col-sm-6">
+					<div class="def-style">
+						<h3>Affected Service</h3>
 
-          <!-- Card for Service -->
-          <div class="col-sm-6">
-            <div class="def-style">
-              <h3>Affected Service</h3>
+						<div class="card-body">
+							The affected services are what areas are impacted by your RFC
+						</div>
+					</div>
+				</div>
+			</div>
 
-              <div class="card-body">
-                The affected services are what areas are impacted by your RFC
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Row for Useful Tips -->
-        <h2>Hints & Tips</h2>
-        <div class="row">
-          <!-- Button for Set up My Requests -->
-          <div class="col-sm-12">
-            <div class="def-style">
-              <h3>Set up My Requests</h3>
-              <div class="card-body">
-                To set up .....
-              </div>
-            </div>
-          </div>
-        </div>
-      </a>
-      <div>
-        <a
-          class="btn btn-sm"
-          href="#Top-of-page"
-          role="button"
-          aria-pressed="true"
-          >Home</a
-        >
-      </div>
-    </section>
-    <!-- Documentation Section -->
-    <section class="container-fluid">
-      <a id="documentation">
-        <div class="row">
-          <div class="col-sm-6 btn-section">
-            <a
-              class="btn btn-lg doc-btn"
-              href="https://teams.microsoft.com/l/file/2F220FE0-99BA-4578-9CA5-DE83439DA268?tenantId=3f01317f-bda5-49d1-8668-9d3caae9970a&fileType=docx&objectUrl=https%3A%2F%2Fboohooplc.sharepoint.com%2Fsites%2FChangeManagement%2FShared%20Documents%2FChange%20Documentation%2FChange%20Policy%20Process%20%26%20Procedure.docx&baseUrl=https%3A%2F%2Fboohooplc.sharepoint.com%2Fsites%2FChangeManagement&serviceName=teams&threadId=19:9dd5bc2f10a348188147e8c5ceed2740@thread.tacv2&groupId=ee5e0dba-068e-44d2-8e25-0792f2c5ee8a"
-              target="_blank"
-              role="button"
-              aria-pressed="true"
-              >Change Management Policy, Process and Procedure</a
-            >
-          </div>
-          <div class="col-sm-6 btn-section">
-            <a
-              class="btn btn-lg doc-btn"
-              href="https://teams.microsoft.com/l/file/BBE278D9-3F79-45BF-B66C-852A431F9D62?tenantId=3f01317f-bda5-49d1-8668-9d3caae9970a&fileType=xlsx&objectUrl=https%3A%2F%2Fboohooplc.sharepoint.com%2Fsites%2FChangeManagement%2FShared%20Documents%2FChange%20Documentation%2FStandard%20Reference.xlsx&baseUrl=https%3A%2F%2Fboohooplc.sharepoint.com%2Fsites%2FChangeManagement&serviceName=teams&threadId=19:9dd5bc2f10a348188147e8c5ceed2740@thread.tacv2&groupId=ee5e0dba-068e-44d2-8e25-0792f2c5ee8a"
-              target="_blank"
-              role="button"
-              aria-pressed="true"
-              >Standard References</a
-            >
-          </div>
-        </div>
-        <div class="row">
-          <div id="change-process"></div>
-        </div>
-      </a>
-      <div>
-        <a
-          class="btn btn-sm"
-          href="#Top-of-page"
-          role="button"
-          aria-pressed="true"
-          >Home</a
-        >
-      </div>
-    </section>
-       <!-- Ideas Section -->
-    <!-- Footer Section -->
-    <footer class="container-fluid">
-      <div class="row footer-row">
-        <div
-          class="col-sm-1 col-md-6 d-none d-sm-block social-links d-md-flex justify-content-start"
-        >
-          <a href="change.management@boohoo.com"
-            ><i class="fa fa-envelope-open-text" aria-hidden="true"></i>
-            <span class="sr-only">Email Change</span></a
-          >
-        </div>
-        <div class="col-sm-3 col-md-6 d-md-flex justify-content-end">
-          <ul class="list-inline social-links">
-            <li class="list-inline-item">
-              <a
-                href="https://twitter.com/boohoo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-                target="_blank"
-                ><i class="fa fa-twitter" aria-hidden="true"></i>
-                <span class="sr-only">Twitter</span></a
-              >
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/boohoo.com" target="_blank"
-                ><i class="fa fa-facebook" aria-hidden="true"></i>
-                <span class="sr-only">Facebook</span></a
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-  <!---------------------------------- modal code copied from Bootstrap -->
-    <div class="modal" tabindex="-1" role="dialog" id="ideasModal">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">Send Change Management Your Ideas</h5>
-            <button
+			<!-- Row for Useful Tips -->
+			<h2>Hints & Tips</h2>
+			<div class="row">
+				<!-- Button for Set up My Requests -->
+				<div class="col-sm-12">
+					<div class="def-style">
+						<h3>Set up My Requests</h3>
+						<div class="card-body">
+							To set up .....
+						</div>
+					</div>
+				</div>
+			</div>
+		</a>
+		<div>
+			<a class="btn btn-sm" href="#Top-of-page" role="button" aria-pressed="true">Home</a>
+		</div>
+	</section>
+	<!-- Documentation Section -->
+	<section class="container-fluid">
+		<a id="documentation">
+			<div class="row">
+				<div class="col-sm-6 btn-section">
+					<a class="btn btn-lg doc-btn"
+						href="https://teams.microsoft.com/l/file/2F220FE0-99BA-4578-9CA5-DE83439DA268?tenantId=3f01317f-bda5-49d1-8668-9d3caae9970a&fileType=docx&objectUrl=https%3A%2F%2Fboohooplc.sharepoint.com%2Fsites%2FChangeManagement%2FShared%20Documents%2FChange%20Documentation%2FChange%20Policy%20Process%20%26%20Procedure.docx&baseUrl=https%3A%2F%2Fboohooplc.sharepoint.com%2Fsites%2FChangeManagement&serviceName=teams&threadId=19:9dd5bc2f10a348188147e8c5ceed2740@thread.tacv2&groupId=ee5e0dba-068e-44d2-8e25-0792f2c5ee8a"
+						target="_blank" role="button" aria-pressed="true">Change Management Policy, Process and
+						Procedure</a>
+				</div>
+				<div class="col-sm-6 btn-section">
+					<a class="btn btn-lg doc-btn"
+						href="https://teams.microsoft.com/l/file/BBE278D9-3F79-45BF-B66C-852A431F9D62?tenantId=3f01317f-bda5-49d1-8668-9d3caae9970a&fileType=xlsx&objectUrl=https%3A%2F%2Fboohooplc.sharepoint.com%2Fsites%2FChangeManagement%2FShared%20Documents%2FChange%20Documentation%2FStandard%20Reference.xlsx&baseUrl=https%3A%2F%2Fboohooplc.sharepoint.com%2Fsites%2FChangeManagement&serviceName=teams&threadId=19:9dd5bc2f10a348188147e8c5ceed2740@thread.tacv2&groupId=ee5e0dba-068e-44d2-8e25-0792f2c5ee8a"
+						target="_blank" role="button" aria-pressed="true">Standard References</a>
+				</div>
+			</div>
+			<div class="row">
+				<div id="change-process"></div>
+			</div>
+		</a>
+		<div>
+			<a class="btn btn-sm" href="#Top-of-page" role="button" aria-pressed="true">Home</a>
+		</div>
+	</section>
+	<!-- Ideas Section -->
+	<!-- Footer Section -->
+	<footer class="container-fluid">
+		<div class="row footer-row">
+			<div class="col-sm-1 col-md-6 d-none d-sm-block social-links d-md-flex justify-content-start">
+				<a href="change.management@boohoo.com"><i class="fa fa-envelope-open-text" aria-hidden="true"></i>
+					<span class="sr-only">Email Change</span></a>
+			</div>
+			<div class="col-sm-3 col-md-6 d-md-flex justify-content-end">
+				<ul class="list-inline social-links">
+					<li class="list-inline-item">
+						<a href="https://twitter.com/boohoo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
+							target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i>
+							<span class="sr-only">Twitter</span></a>
+					</li>
+					<li class="list-inline-item">
+						<a href="https://www.facebook.com/boohoo.com"
+							target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<!---------------------------------- modal code copied from Bootstrap -->
+	<div class="modal" tabindex="-1" role="dialog" id="ideasModal">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Send Change Management Your Ideas</h5>
+					<button
               type="button"
               class="close"
               data-dismiss="modal"
@@ -306,26 +251,24 @@
             >
               <span aria-hidden="true">&times;</span>
             </button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="selectArea"
-                  ><i class="fas fa-mouse-pointer"></i> Idea is for </label
-                >
+				</div>
+				<div class="modal-body">
+					<form>
+						<div class="form-group">
+							<label for="selectArea"
+                  ><i class="fas fa-mouse-pointer"></i> Idea is for </label>
 
-                <select class="text-input" id="selectArea">
+							<select class="text-input" id="selectArea">
                   <option value="process">Change Process</option>
                   <option value="tool">ServiceDesk Plus</option>
                   <option value="docs">Documentation</option>
                   <option value="Website">Web Site</option>
                 </select>
-              </div>
-              <div class="form-group">
-                <label for="newIdea"
-                  ><i class="fas fa-lightbulb"></i> Your Idea</label
-                >
-                <textarea
+						</div>
+						<div class="form-group">
+							<label for="newIdea"
+                  ><i class="fas fa-lightbulb"></i> Your Idea</label>
+							<textarea
                   type="text"
                   class="form-control"
                   id="newIdea"
@@ -334,28 +277,24 @@
                   required
                 >
                 </textarea>
-                <small id="newIdeaText" class="form-text text-muted"
-                  >All ideas will be concidered.</small
-                >
+							<small id="newIdeaText" class="form-text text-muted"
+                  >All ideas will be concidered.</small>
+						</div>
+						<div class="form-group">
+							<label for="firstName">
+                  <i class="fas fa-id-badge"></i> Forename</label>
+							<input type="text" class="form-control" id="firstName" required/>
               </div>
-              <div class="form-group">
-                <label for="firstName">
-                  <i class="fas fa-id-badge"></i> Forename</label
-                >
-                <input type="text" class="form-control" id="firstName" required/>
+							<div class="form-group">
+								<label for="lastName">
+                  <i class="fas fa-id-badge"></i> Surname</label>
+								<input type="text" class="form-control" id="lastName" required/>
               </div>
-              <div class="form-group">
-                <label for="lastName">
-                  <i class="fas fa-id-badge"></i> Surname</label
-                >
-                <input type="text" class="form-control" id="lastName" required/>
-              </div>
-              <div class="form-group">
-                <label for="exampleInputEmail1"
+								<div class="form-group">
+									<label for="exampleInputEmail1"
                   ><i class="fa fa-envelope-open-text" aria-hidden="true"></i>
-                  Your Email address</label
-                >
-                <input
+                  Your Email address</label>
+									<input
                   type="email"
                   class="form-control"
                   id="exampleInputEmail1"
@@ -363,19 +302,17 @@
                 />
               </div>
 
-              <button type="submit" class="btn modal-btn">Send in Your Idea</button>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Required for Bootstrap JS & keep all scripts together -->
-    <script
-      src="https://kit.fontawesome.com/15a3b949c3.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-  </body>
+									<button type="submit" class="btn modal-btn">Send in Your Idea</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Required for Bootstrap JS & keep all scripts together -->
+	<script src="https://kit.fontawesome.com/15a3b949c3.js" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
 </html>
