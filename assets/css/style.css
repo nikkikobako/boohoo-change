@@ -115,8 +115,15 @@ h3 {
 
 #ideas-btn {
   min-height: 4rem;
-  border: 2px solid #3f3f3f;
   box-shadow: 5px 10px grey;
+}
+
+#btnGroupDrop1 {
+    background-color: #c9e7fc;
+}
+
+.btn-home {
+
 }
 
 /* --- Home Page  */
@@ -126,6 +133,7 @@ h3 {
   color: #e91e63;
   min-height: 60vh;
   padding: 20px;
+    border-radius: 25px;
 }
 
 #basic-details a {
@@ -133,6 +141,7 @@ h3 {
   color: #00bcd4;
   font-weight: 500;
 }
+
 
 /* --- Ideas Section  */
 
