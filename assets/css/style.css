@@ -118,13 +118,10 @@ h3 {
   box-shadow: 5px 10px grey;
 }
 
-#btnGroupDrop1 {
-    background-color: #c9e7fc;
+.dropdown-item:hover {
+    color: #e91e63;
 }
 
-.btn-home {
-
-}
 
 /* --- Home Page  */
 
@@ -133,7 +130,6 @@ h3 {
   color: #e91e63;
   min-height: 60vh;
   padding: 20px;
-    border-radius: 25px;
 }
 
 #basic-details a {
@@ -142,6 +138,10 @@ h3 {
   font-weight: 500;
 }
 
+.dropdown-menu {
+    border-radius: 25px;
+    background-color: #f8f8ff;
+}
 
 /* --- Ideas Section  */
 
