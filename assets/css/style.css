@@ -109,11 +109,6 @@ h3 {
   font-weight: 600;
 }
 
-.btn:hover,
- a.dropdown-item {
-  color: #e91e63;
-}
-
 #ideas-btn {
   min-height: 4rem;
   box-shadow: 5px 10px grey;
@@ -126,7 +121,12 @@ h3 {
     margin-left: 3rem;
     box-shadow: 5px 10px grey;
 }
+
+.btn:hover,
+#btnGroupDrop1:hover {
+  color: #e91e63;
 }
+
 
 /* --- Home Page  */
 
