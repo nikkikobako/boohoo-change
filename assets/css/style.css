@@ -109,6 +109,7 @@ h3 {
 #ideas-btn {
   min-height: 4rem;
   box-shadow: 5px 10px grey;
+  background-color: #c9e7fc;
 }
 
 #btnGroupDrop1 {
@@ -119,11 +120,15 @@ h3 {
     box-shadow: 5px 10px grey;
 }
 
+.home-btn {
+    background-color:  #00bcd4;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
 .btn:hover {
   color: #e91e63;
 }
-
-
 /* --- Home Page  */
 
 #basic-details {
