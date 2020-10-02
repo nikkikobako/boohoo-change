@@ -35,6 +35,7 @@ h1 {
 h2 {
   color: #e91e63;
   margin-left: 15px;
+  margin-top: 20px;
 }
 
 h3 {
@@ -151,10 +152,11 @@ h3 {
 
 /* --- Ideas Section  */
 
-.ideas-col {
-  padding-top: 4rem;
-  padding-left: 4rem;
+#ideas-col {
+  font-size: 1.5rem;
+  color: #f8f8ff;
   min-height: 60vh;
+  padding: 30px;
 }
 
 /* --- Quick Help Section  */
