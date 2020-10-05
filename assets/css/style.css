@@ -58,12 +58,12 @@ h3 {
   font-size: 1.5rem;
 }
 
-.navbar-nav .nav-item .nav-link:hover {
-  color: #f8f8ff;
-}
-
 .navbar-nav .nav-item .nav-link {
   color: #c9e7fc;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #f8f8ff;
 }
 
 /* --- Pictures  */
@@ -242,7 +242,7 @@ footer {
 
 .footer-row i {
   font-size: 2rem;
-  color: #00bcd4;
+  color: #c9e7fc;
 }
 
 .footer-row col-12 a i {
@@ -250,5 +250,5 @@ footer {
 }
 
 .social-links i:hover {
-  color: #e91e63;
+  color: #f8f8ff;
 }
