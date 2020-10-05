@@ -58,15 +58,11 @@ h3 {
   font-size: 1.5rem;
 }
 
-.navbar-light .nav-item.active .nav-link,
-.navbar-light .nav-item:focus .nav-link,
-.navbar-light .nav-item:hover .nav-link {
+.navbar-nav .nav-item .nav-link:hover {
   color: #f8f8ff;
 }
 
-.navbar-light .nav-item .nav-link,
-.navbar-light .nav-item:focus .nav-link,
-.navbar-light .nav-item:hover .nav-link {
+.navbar-nav .nav-item .nav-link {
   color: #c9e7fc;
 }
 
