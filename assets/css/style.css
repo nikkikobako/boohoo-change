@@ -61,13 +61,13 @@ h3 {
 .navbar-light .nav-item.active .nav-link,
 .navbar-light .nav-item:focus .nav-link,
 .navbar-light .nav-item:hover .nav-link {
-  color: #00bcd4;
+  color: #f8f8ff;
 }
 
 .navbar-light .nav-item .nav-link,
 .navbar-light .nav-item:focus .nav-link,
 .navbar-light .nav-item:hover .nav-link {
-  color: #e91e63;
+  color: #c9e7fc;
 }
 
 /* --- Pictures  */
