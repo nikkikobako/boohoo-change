@@ -141,7 +141,7 @@ h3 {
 
 #basic-details a {
   font-size: 1.3rem;
-  color: #3f3f3f;
+  color: #00251a;
   font-weight: 500;
 }
 
@@ -155,6 +155,7 @@ h3 {
     box-shadow: 5px 10px grey;
     margin-left: 50px;
 }
+
 
 /* --- Ideas Section  */
 
