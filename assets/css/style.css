@@ -196,7 +196,7 @@ h3 {
 /* --- style the modal popup  */
 
 .modal-dialog {
-  color: #00bcd4;
+  color: #045c10;
   background-color: #c9e7fc;
   font-weight: 400;
   position: absolute;
@@ -211,8 +211,8 @@ h3 {
 }
 
 #selectArea {
-  color: #00bcd4;
-  border-color: #00bcd4;
+  color: #045c10;
+  border-color: #045c10;
 }
 
 /* The Close Button */
